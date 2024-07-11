@@ -1,0 +1,9 @@
+huggingface_hub
+transformers
+tokenizers
+datasets
+safetensors
+gradio
+typer
+rich
+python-dotenv
