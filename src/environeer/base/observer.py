@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from environeer.base.node import NodeBaseClass
-from environeer.base.root import RootBaseClass
-from environeer.base.observer import ObserverBaseClass
+import functools
+
+from abc import ABC, abstractmethod
+
+
+class ObserverBaseClass(ABC):
+    """a Pydantic Logfire interface"""
+    pass

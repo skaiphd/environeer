@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from environeer.base.node import NodeBaseClass
-from environeer.base.root import RootBaseClass
-from environeer.base.observer import ObserverBaseClass
+from environeer.base import ObserverBaseClass
+
+
+class Observer(ObserverBaseClass):
+    def __init__(self):
+        super().__init__()
+        pass
